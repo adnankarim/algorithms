@@ -1,3 +1,5 @@
+//finding hopping rabbit
+
 let pos =20;
 let len=1000;
 function step(){
