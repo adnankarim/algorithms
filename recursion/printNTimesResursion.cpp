@@ -1,4 +1,9 @@
 // Online C++ compiler to run C++ program online
+
+
+
+// time complexity O(n)
+// space complexity O(n) hypothetical as we are using only internal stack at each function call..
 #include <iostream>
 int N =5;
 using namespace std;
