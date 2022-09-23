@@ -2,22 +2,22 @@
 // time Complexity: O(n)
 // space complexity O(n)
 #include <iostream>
-int N =5;
+
 using namespace std;
-void sumuptoNparametrized(int N,int sum=0){
+int sumuptoNfunctional(int N){
   
-    if(N<0){
-    cout<<(sum);
-        return;
+    if(N==0){
+    
+        return 0;
     }
     
-    sumuptoNparametrized(N-1,sum+N);
+    return N + sumuptoNfunctional(N-1);
      
 }
 
 int main() {
     // Write C++ code here
    
-    sumuptoNparametrized(3);
+    cout<<sumuptoNfunctional(3);
     return 0;
 }

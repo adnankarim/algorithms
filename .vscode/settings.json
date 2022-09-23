@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "printnto1backtract": "cpp"
+        "printnto1backtract": "cpp",
+        "ss": "cpp"
     }
 }
