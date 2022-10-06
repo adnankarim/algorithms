@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 # TC O(n)
-# SC O(1)
+# SC O(1) hashmap O(n) in worst case
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
