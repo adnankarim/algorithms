@@ -1,8 +1,6 @@
 
-
-from symbol import subscript
-
-
+# Time complexity: O(N2), where N is the length of the input string.
+# Auxiliary Space: O(N), where N is the length of the input string.
 def subString(string,length):
     
     for i in range(length):
@@ -17,6 +15,12 @@ def subString(string,length):
 
 
 
-
 Str = "abcd"
 subString(Str,len(Str))
+
+
+
+
+
+
+
