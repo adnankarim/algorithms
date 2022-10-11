@@ -30,4 +30,17 @@ class Solution(object):
     
     
     # alternatively
-        return sorted(s)==sorted(t)
+        # return sorted(s)==sorted(t)
+#    alternatively
+        if len(s)!=len(t):
+            return False
+
+        chars=[0]*256
+        for i in s:
+            chars[ord(i)]+=1
+        
+        for i in t:
+            chars[ord(i)]-=1
+            if chars[ord(i)]<0:
+                return False
+        return True
