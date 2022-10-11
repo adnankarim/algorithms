@@ -1,6 +1,6 @@
-# TC nlogn
+# TC nlogn + o(n)
 # SC O(n) for output mergs
-
+# https://leetcode.com/problems/merge-intervals/
 class Solution(object):
     def merge(self, intervals):
         """
