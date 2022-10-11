@@ -1,4 +1,7 @@
 # recursion
+
+# TC 2^n for every call n two options pick and remove
+# SC height of recursion Tree + O(n),
 def solve(i, s,f,out): 
 	if (i == len(s)): 
 		out.append(list(f))
