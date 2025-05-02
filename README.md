@@ -60,5 +60,5 @@ This collection features categorized implementations of classic algorithmic prob
 git clone https://github.com/adnankarim/algorithms.git
 
 # Open in VS Code or any IDE
-cd your-repo-name
+cd algorithms
 code .
